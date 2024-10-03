@@ -1,0 +1,5 @@
+SQLAlchemy==2.0.32
+fastapi==0.115.0
+uvicorn==0.30.6
+APScheduler==3.10.4
+pandas==2.2.2
