@@ -15,7 +15,7 @@ RUN pip install -r requirements.txt
 
 # Copy the content of the local src directory to the working directory
 COPY app ./app
-COPY server_setup.sh .
+# COPY server_setup.sh .
 
 # Specify the command to run on container start
 CMD [ "uvicorn", "app.main:app", "--reload",  "--port", "8080", "--host", "0.0.0.0"]
